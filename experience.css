@@ -1,0 +1,120 @@
+/* experiencia*/
+section.experience{
+    padding: 64px 0;
+}
+
+/* titulo experiencia */
+section.experience h2.experience_section_title{
+    font-size: 32px;
+    text-align: center;
+    color: var(--color-titulos);
+    margin: 0 5% 2% 0;
+}
+
+/* contenedor experiencia images e info */
+section.experience div.experience_box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+/* contenedor print images */
+section.experience img.experience_img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2% 2%;
+    border-color: var(--color-botones);
+    border-style: outset;
+    border-width: 6px;
+}
+
+/* contenedor experiencia info */
+section.experience div.experience_info{
+    width: 40%;
+}
+
+/* estilizacion titulo */
+section.experience h2.experience_title{
+    margin-top: 20%;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--color-titulos);
+}
+
+/* estilizacion texto */
+section.experience h3.experience_text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 50px;
+    color: var(--color-titulos);
+}
+
+/*contenedor de botones */
+section.experience div.experience_description{
+    display: flex;
+    justify-content: start;
+    margin: 6% 15%;
+}
+
+/* estilizacion boton repositorio */
+section.experience button.experience_boton-repo{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 105px;
+    height: 51px;
+    color: var(--color-botones);
+    border-color: var(--color-botones);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+section.experience button.experience_boton-repo:hover{
+    background-color: var(--color-botones);
+    border-color: var(--color-botones);
+    color: #FFFFFF;
+    transition: 500ms;
+}
+
+/* estilizacion boton demo */
+section.experience button.experience_boton-demo{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 105px;
+    height: 51px;
+    color: #FFFFFF;
+    border-color: var(--color-botones);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10%;
+
+    /* Azul/100% */
+    background: var(--color-botones);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+section.experience button.experience_boton-demo:hover{
+    background-color: #e05151;
+    border-color: #e05151;
+    transition: 500ms;
+}

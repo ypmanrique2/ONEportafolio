@@ -1,0 +1,57 @@
+/* FORMACION ACADEMICA */
+section.academic{
+    padding: 64px 0;
+    background-color: var(--color-fondo-azul);
+}
+
+/* titulo */
+section.academic h2.academic_title{
+    font-size: 32px;
+    text-align: center;
+    color: var(--color-titulos);
+    margin: 0 0 4% 0;
+}
+
+/* alineacion contenedores */
+section.academic div.academic_courses{
+    display: flex;
+    justify-content: center;
+}
+
+/* alineacion contenedores interior */
+section.academic div.academic_courses_box{
+    width: 90%;
+    margin: 0 0;
+}
+
+/* alineacion items interior */
+section.academic div.academic_courses_box ul{
+    margin: 15%;
+    padding: 0;
+}
+
+/* alineacion listas */
+section.academic div.academic_courses_box ul li{
+    margin: 32px;
+    padding: 0;
+}
+
+/* alineacion listas */
+section.academic div.academic_courses_box ul li{
+    margin: 32px;
+    padding: 0;
+}
+
+/* titulo listas */
+section.academic div.academic_courses_box ul li.academic_courses_item_title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* estilo imagenes */
+div.academic_courses_box ul li.academic_courses_item_img{
+   /* background-color: var(--color-cajas); */
+    padding: 8%;
+    text-align: center
+}
+
